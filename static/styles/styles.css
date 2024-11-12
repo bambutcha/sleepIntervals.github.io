@@ -1,0 +1,77 @@
+/**Обнуление**/
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px
+}
+
+body {
+    background-color: #e7e7e7;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0px auto; /* Отступ от контейнера наружу */
+    padding: 1% 650px; /* Отступ от контейнера внутрь */
+
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.content {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input[type="datetime-local"] {
+    width: 40%;
+    padding: 8px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.3);
+
+}
+h2 {
+    color: #333;
+}
+#output {
+    font-size: 18px;;
+    color: #5900ff;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.output {
+    max-width: 50%;
+}
+
+h2 {
+    color: #333;
+    text-align: center; /* Центрирование текста */
+}
